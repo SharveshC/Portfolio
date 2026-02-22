@@ -67,16 +67,6 @@ const Certifications = () => {
                   <span className="bg-portfolio-blue/10 px-3 py-1 rounded-full text-portfolio-blue font-semibold">{cert.year}</span>
                   <span className="text-portfolio-purple/80">• {cert.focus}</span>
                 </div>
-                <div className="mt-4 flex flex-wrap justify-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-white/70">
-                  {(certificationBadges[cert.title] || []).map((badge) => (
-                    <span
-                      key={badge}
-                      className="px-3 py-1 rounded-full bg-white/10 border border-white/20 shadow-[0_8px_25px_rgba(59,130,246,0.35)] transition-transform duration-300 group-hover:-translate-y-0.5"
-                    >
-                      {badge}
-                    </span>
-                  ))}
-                </div>
               </div>
 
               {/* Progress Circle */}
