@@ -27,7 +27,7 @@ const Projects = () => {
       gradient: "from-green-400 to-green-600"
     },
     {
-      title: "Student & Teacher Management System",
+      title: "Graph-Oriented Academic Data Management System using Neo4j",
       description: "A comprehensive system for managing student and teacher data with CRUD operations and user authentication using Neo4j graph database.",
       tech: ["Python", "Tkinter", "Neo4j", "File Handling"],
       icon: "🧑‍🎓",
