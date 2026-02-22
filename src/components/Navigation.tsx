@@ -32,8 +32,8 @@ const Navigation = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/SharveshC_Resume.pdf';
-    link.download = 'SharveshC_Resume.pdf';
+    link.href = '/Sharvesh_Resume.pdf';
+    link.download = 'Sharvesh_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

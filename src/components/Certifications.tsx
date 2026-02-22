@@ -16,7 +16,7 @@ const Certifications = () => {
       icon: "🤖",
       focus: "AutoML & ML Fundamentals",
       year: "2026",
-      viewLink: "/dsa_simplilearn.png"
+      viewLink: "/Automated Machine Lerning for Beginners.png"
     },
     {
       title: "DSA",
