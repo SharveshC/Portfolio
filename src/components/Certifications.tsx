@@ -43,7 +43,7 @@ const Certifications = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           {certifications.map((cert, index) => (
             <div 
               key={cert.title}
