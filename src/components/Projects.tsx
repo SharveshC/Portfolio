@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       title: "Graph-Oriented Academic Data Management System using Neo4j",
-      description: "A comprehensive system for managing student and teacher data with CRUD operations and user authentication using Neo4j graph database.",
+      description: "A Python-based student management system using Neo4j to efficiently manage, query, and visualize student data and relationships. Supports CSV data import, CRUD operations, and graph-based queries.",
       tech: ["Python", "Tkinter", "Neo4j", "File Handling"],
       icon: "🧑‍🎓",
       gradient: "from-orange-400 to-orange-600"

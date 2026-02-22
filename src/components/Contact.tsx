@@ -75,7 +75,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full"></div>
           <p className="text-white/70 text-lg mt-6 max-w-2xl mx-auto">
-            Let's connect! I'm always open to discussing new opportunities, projects, or just having a tech chat.
+            Let's connect! 
           </p>
         </div>
 
