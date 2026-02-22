@@ -20,12 +20,6 @@ const About = () => {
       school: "Kovai Vidyashram",
       level: "Secondary Education",
       location: "Coimbatore"
-    },
-    {
-      period: "2010 - 2017",
-      school: "St. Antony's Matric School",
-      level: "Primary Education",
-      location: "Coimbatore"
     }
   ];
 

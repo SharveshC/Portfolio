@@ -127,7 +127,7 @@ const Certifications = () => {
               </div>
 
               {/* Completion Status */}
-              <div className="text-center space-y-3 mt-5">
+              <div className="text-center space-y-4 mt-5">
                 <span className={`inline-block px-4 py-2 rounded-full text-sm font-medium ${
                   cert.percentage === 100 
                     ? 'bg-green-100 text-green-800' 
