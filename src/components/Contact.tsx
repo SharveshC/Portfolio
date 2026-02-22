@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,7 +10,6 @@ const Contact = () => {
     email: "",
     message: ""
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -174,10 +172,9 @@ const Contact = () => {
                 <Button
                   type="submit"
                   size="lg"
-                  disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-portfolio-blue to-portfolio-purple text-white hover:from-portfolio-blue-dark hover:to-portfolio-purple transition-all transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="w-full bg-gradient-to-r from-portfolio-blue to-portfolio-purple text-white hover:from-portfolio-blue-dark hover:to-portfolio-purple transition-all transform hover:scale-[1.02]"
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                  Send Message
                 </Button>
               </form>
             </div>
