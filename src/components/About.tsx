@@ -12,19 +12,19 @@ const About = () => {
     {
       period: "2022 - 2024",
       school: "KG International School",
-      level: "Higher Secondary (11th - 12th)",
+      level: "Higher Secondary",
       location: "Coimbatore"
     },
     {
       period: "2017 - 2022",
       school: "Kovai Vidyashram",
-      level: "Secondary Education (6th - 10th)",
+      level: "Secondary Education",
       location: "Coimbatore"
     },
     {
       period: "2010 - 2017",
       school: "St. Antony's Matric School",
-      level: "Primary Education (LKG - 5th)",
+      level: "Primary Education",
       location: "Coimbatore"
     }
   ];

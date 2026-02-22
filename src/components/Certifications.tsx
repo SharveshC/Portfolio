@@ -18,24 +18,14 @@ const Certifications = () => {
       viewLink: "https://www.simplilearn.com/certification"
     },
     {
-      title: "C Programming",
+      title: "DSA",
       provider: "Simplilearn",
       percentage: 100,
-      color: "from-gray-400 to-gray-600",
-      icon: "💻",
-      focus: "Systems Programming",
+      color: "from-blue-400 to-blue-600",
+      icon: "📊",
+      focus: "Algorithmic Strategy",
       year: "2024",
-      viewLink: "https://www.simplilearn.com/certificate"
-    },
-    {
-      title: "AI Assistant Workshop",
-      provider: "Be10X",
-      percentage: 100,
-      color: "from-pink-400 to-pink-600",
-      icon: "🤖",
-      focus: "Conversational AI",
-      year: "2024",
-      viewLink: "https://be10x.ai/ai-workshop"
+      viewLink: "https://www.simplilearn.com/certification"
     }
   ];
 
