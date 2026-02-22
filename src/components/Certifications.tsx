@@ -8,14 +8,14 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: "DSA",
-      provider: "Simplilearn",
+      title: "Automated Machine Learning for Beginners",
+      provider: "Google & Apple",
       percentage: 100,
-      color: "from-blue-400 to-blue-600",
-      icon: "📊",
-      focus: "Algorithmic Strategy",
+      color: "from-purple-400 to-purple-600",
+      icon: "🤖",
+      focus: "AutoML & ML Fundamentals",
       year: "2024",
-      viewLink: "https://www.simplilearn.com/certification"
+      viewLink: "https://www.coursera.org/learn/automated-machine-learning"
     },
     {
       title: "DSA",
