@@ -16,7 +16,7 @@ const Certifications = () => {
       icon: "🤖",
       focus: "AutoML & ML Fundamentals",
       year: "2026",
-      viewLink: "https://www.coursera.org/learn/automated-machine-learning"
+      viewLink: "/dsa_simplilearn.png"
     },
     {
       title: "DSA",
@@ -26,7 +26,7 @@ const Certifications = () => {
       icon: "📊",
       focus: "Algorithmic Strategy",
       year: "2025",
-      viewLink: "https://www.simplilearn.com/certification"
+      viewLink: "/dsa_simplilearn.png"
     }
   ];
 
