@@ -82,11 +82,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="mt-6 flex justify-center lg:justify-start gap-3">
-              <span className="h-1 w-16 rounded-full bg-gradient-to-r from-portfolio-cyan to-portfolio-blue animate-pulse" />
-              <span className="h-1 w-10 rounded-full bg-gradient-to-r from-portfolio-blue to-portfolio-purple opacity-60 animate-[wave_2s_ease-in-out_infinite]" />
-            </div>
-
           </div>
 
           {/* Right Content - Illustration */}
