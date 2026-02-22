@@ -31,9 +31,7 @@ const Certifications = () => {
   ];
 
   return (
-    <section id="certifications" className="py-20 relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
-      <div className="pointer-events-none absolute -top-20 -right-10 h-64 w-64 rounded-full bg-gradient-to-br from-portfolio-purple/40 to-portfolio-blue/40 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-10 left-6 h-56 w-56 rounded-full bg-gradient-to-br from-portfolio-orange/30 to-portfolio-pink/30 blur-3xl" />
+    <section id="certifications" className="py-20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-poppins font-bold text-4xl text-white mb-4">
@@ -45,15 +43,13 @@ const Certifications = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
             <div 
               key={cert.title}
-              className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-b from-slate-900/60 to-slate-900/20 shadow-[0_30px_70px_rgba(15,23,42,0.45)] transition-all duration-300 hover:shadow-[0_40px_90px_rgba(15,23,42,0.55)] hover:-translate-y-0.5 animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group bg-gradient-to-br from-slate-900/60 to-slate-900/40 p-8 rounded-3xl shadow-[0_25px_65px_rgba(2,6,23,0.65)] hover:shadow-[0_32px_90px_rgba(2,6,23,0.8)] transition-all duration-300 hover:-translate-y-2 animate-fade-in border border-white/10"
+              style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="absolute -top-16 right-10 h-32 w-32 bg-gradient-to-r from-portfolio-blue/50 to-portfolio-purple/50 blur-[120px] opacity-30" />
-              <div className="relative z-10 p-8">
               {/* Certificate Header */}
               <div className="text-center mb-6">
                 <div className={`w-16 h-16 bg-gradient-to-r ${cert.color} rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 transform group-hover:scale-110 transition-transform duration-300`}>
@@ -162,7 +158,6 @@ const Certifications = () => {
                 )}
               </div>
             </div>
-          </div>
           ))}
         </div>
 
