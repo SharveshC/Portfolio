@@ -4,12 +4,20 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "EYE DISEASE PREDICTION",
+      title: "VisionDx",
       description: "A machine learning project for predicting eye diseases from medical imaging and associated data. Includes full coding workflow and repository documentation.",
       tech: ["Python", "ML", "Data Processing"],
       icon: "👁️",
       gradient: "from-indigo-400 to-indigo-600",
       link: "https://github.com/SharveshC/Projects/tree/main/Eye%20Disease%20Prediction/full%20coding%20part"
+    },
+    {
+      title: "CodeFlow",
+      description: "A cloud-based code editor with multi-language support, real-time execution, and smart snippet management. Features AI-powered coding assistance, Monaco editor, and Firebase authentication.",
+      tech: ["React", "TypeScript", "Firebase", "Monaco Editor"],
+      icon: "💻",
+      gradient: "from-cyan-400 to-cyan-600",
+      link: "https://github.com/SharveshC/CodeFlow"
     },
     {
       title: "Foretype",
@@ -24,14 +32,6 @@ const Projects = () => {
       tech: ["Python", "Tkinter", "Neo4j", "File Handling"],
       icon: "🧑‍🎓",
       gradient: "from-orange-400 to-orange-600"
-    },
-    {
-      title: "CodeFlow",
-      description: "A cloud-based code editor with multi-language support, real-time execution, and smart snippet management. Features AI-powered coding assistance, Monaco editor, and Firebase authentication.",
-      tech: ["React", "TypeScript", "Firebase", "Monaco Editor"],
-      icon: "💻",
-      gradient: "from-cyan-400 to-cyan-600",
-      link: "https://github.com/SharveshC/CodeFlow"
     }
   ];
 
