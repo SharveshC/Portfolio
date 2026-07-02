@@ -66,6 +66,12 @@ const Navigation = () => {
               Skills
             </button>
             <button
+              onClick={() => scrollToSection("experience")}
+              className="transition-colors text-white hover:text-portfolio-blue"
+            >
+              Experience
+            </button>
+            <button
               onClick={() => scrollToSection("projects")}
               className="transition-colors text-white hover:text-portfolio-blue"
             >
@@ -130,6 +136,15 @@ const Navigation = () => {
               className="block w-full text-left text-white/90 hover:text-white transition-colors py-2"
             >
               Skills
+            </button>
+            <button
+              onClick={() => {
+                scrollToSection("experience");
+                setIsMobileMenuOpen(false);
+              }}
+              className="block w-full text-left text-white/90 hover:text-white transition-colors py-2"
+            >
+              Experience
             </button>
             <button
               onClick={() => {
