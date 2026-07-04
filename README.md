@@ -55,7 +55,6 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 - ✅ **App Router**: Uses the modern Next.js App Router architecture
 - ✅ **Easy Customization**: Simple data-driven configuration
 - ✅ **Contact Form**: Integrated email and Telegram notifications
-- ✅ **Blog Integration**: Automatically fetch posts from dev.to
 - ✅ **Dark Theme**: Beautiful gradient design with Lottie animations
 - ✅ **Docker Support**: Easy containerized deployment
 - ✅ **Google Analytics**: Track visitor insights with GTM support
@@ -89,7 +88,6 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 | 🛠️ **Skills**     | Technical skills with animated marquee display      |
 | 🚀 **Projects**   | Showcase your best work with descriptions and links |
 | 🎓 **Education**  | Academic background and certifications              |
-| 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
 | 📧 **Contact**    | Get in touch form with email/Telegram integration   |
 
 ---
@@ -108,7 +106,6 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 - [Tutorials](#tutorials-wrench)
   - [Gmail App Password Setup](#gmail-app-password-setup)
   - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
 - [Packages Used](#packages-used-package)
 - [Contributing](#contributing-handshake)
 - [License](#license-page_with_curl)
@@ -409,23 +406,6 @@ EMAIL_ADDRESS=your.email@gmail.com
 TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
 TELEGRAM_CHAT_ID=123456789
 ```
-
----
-
-### 📝 Fetching Blog from dev.to
-
-1. Create a [dev.to](https://dev.to/) account
-2. Open `utils/data/personal-data.js`
-3. Set your dev.to username:
-
-```javascript
-export const personalData = {
-  // ... other fields
-  devUsername: "yourusername",
-};
-```
-
-The portfolio automatically fetches and displays your latest public articles. No API key required.
 
 ---
 
