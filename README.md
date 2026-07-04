@@ -591,7 +591,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
 ![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
-=======
+
 # Personal Portfolio
 <h2>This repo showcase's my Skills in the form of Portfolio.<h2>
->>>>>>> db51286e686b9c2e6535f1a2f94b691f76522c6b
