@@ -9,5 +9,8 @@ export const skillsData = [
   'React',
   'MySQL',
   'Git',
-  'Firebase'
+  'GitHub',
+  'Firebase',
+  'SupaBase',
+  'MySQL'
 ]
