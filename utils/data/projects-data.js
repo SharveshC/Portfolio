@@ -19,15 +19,6 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'VisionDX',
-        description: 'Built and optimized a CNN-based deep learning model in TensorFlow/Keras to classify 4k+ retinal images into five eye disease categories, achieving 93% accuracy through structured preprocessing and regularization techniques. Deployed the trained CNN model through a Flask-based web application enabling real-time inference, and evaluated performance using precision, recall, F1-score, confusion matrix, and ROC-AUC metrics.',
-        tools: ['Python', 'Tensorflow', 'Machine Learning', 'Computer Vision', 'Flask'],
-        role: 'Machine Learning Engineer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 4,
         name: 'Foretype',
         description: 'Designed and implemented a high-performance autocomplete engine using Trie and Bloom Filter for efficient prefix search and memory optimization. Built adaptive frequency-based ranking with persistent storage to personalize suggestions and maintain learned user behavior across sessions.',
         tools: ['Python', 'Data Structures', 'CLI Tool'],
