@@ -3,6 +3,7 @@
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import experience from '../../../assets/lottie/code.json';
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
@@ -49,10 +50,19 @@ function Experience() {
                         height={200}
                         className="absolute bottom-0 opacity-80"
                       />
-                      <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 w-full">
+                        <p className="text-xs sm:text-sm text-[#16f2b3] sm:ml-20">
                           {experience.duration}
                         </p>
+                        <a 
+                          href="/internship_certificate.pdf" 
+                          target="_blank" 
+                          rel="noreferrer" 
+                          className="flex items-center gap-1 text-[10px] lg:text-xs px-2 lg:px-4 py-1 lg:py-1.5 bg-violet-600 hover:bg-violet-700 text-white rounded-md transition-colors relative z-10 w-fit"
+                        >
+                          <FaExternalLinkAlt className="text-[12px] lg:text-sm" />
+                          <span>Certificate</span>
+                        </a>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-3">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
@@ -66,7 +76,7 @@ function Experience() {
                             {experience.company}
                           </p>
                           {experience.description && (
-                            <p className="text-xs sm:text-sm mt-2 text-gray-300">
+                            <p className="text-xs sm:text-sm mt-2 text-gray-300 whitespace-pre-line leading-relaxed">
                               {experience.description}
                             </p>
                           )}
