@@ -27,6 +27,7 @@ function BlogCard({ blog }) {
               <BsHeartFill />
               <span>{blog.public_reactions_count}</span>
             </p>
+            
             {blog.comments_count > 0 &&
               <p className="flex items-center gap-1">
                 <FaCommentAlt />
