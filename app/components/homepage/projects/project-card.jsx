@@ -1,6 +1,7 @@
 // @flow strict
 
 import * as React from 'react';
+import { FaGithub, FaPlay } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -19,6 +20,20 @@ function ProjectCard({ project }) {
         <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
           {project.name}
         </p>
+        <div className="flex flex-row space-x-2 absolute right-4 lg:right-8 top-1/2 -translate-y-1/2">
+          {project.demo && (
+            <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-[10px] lg:text-xs px-2 lg:px-4 py-1 lg:py-1.5 bg-pink-500 hover:bg-pink-600 text-white rounded-md transition-colors">
+              <FaPlay className="text-[10px] lg:text-xs" />
+              <span>Live Demo</span>
+            </a>
+          )}
+          {project.code && (
+            <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-[10px] lg:text-xs px-2 lg:px-4 py-1 lg:py-1.5 bg-violet-600 hover:bg-violet-700 text-white rounded-md transition-colors">
+              <FaGithub className="text-[12px] lg:text-sm" />
+              <span>GitHub</span>
+            </a>
+          )}
+        </div>
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
