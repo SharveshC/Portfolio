@@ -11,6 +11,5 @@ export const skillsData = [
   'Git',
   'GitHub',
   'Firebase',
-  'SupaBase',
-  'MySQL'
+  'SupaBase'
 ]
