@@ -2,8 +2,8 @@ export const skillsData = [
   'Python',
   'Java',
   'C',
-  'Javascript',
-  'Typescript',
+  'JavaScript',
+  'TypeScript',
   'HTML',
   'CSS',
   'React',
@@ -11,5 +11,5 @@ export const skillsData = [
   'Git',
   'GitHub',
   'Firebase',
-  'SupaBase'
+  'Supabase'
 ]
