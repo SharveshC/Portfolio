@@ -54,7 +54,7 @@ function Experience() {
                           {experience.duration}
                         </p>
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
+                      <div className="flex items-center gap-x-8 px-3 py-3">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
@@ -65,6 +65,11 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
+                          {experience.description && (
+                            <p className="text-xs sm:text-sm mt-2 text-gray-300">
+                              {experience.description}
+                            </p>
+                          )}
                         </div>
                       </div>
                     </div>

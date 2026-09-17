@@ -92,46 +92,39 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Java</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">FireBase</span>
+                <span className="text-amber-300">TypeScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Firebase</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">MySQL</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">QuickLearner:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">interests:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Web Development</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Software Engineering</span>
+                <span className="text-gray-400">{"'],"}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">ProblemSolver:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">learning:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">DSA</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Backend Development</span>
+                <span className="text-gray-400">{"'],"}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">HireMe:</span>
-                <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">openTo:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Internships</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Collaborations</span>
+                <span className="text-gray-400">{"']"}</span>
               </div>
-              <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                <span className="text-gray-400">{`(`}</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
               <div><span className="text-gray-400">{`};`}</span></div>
             </code>
           </div>
