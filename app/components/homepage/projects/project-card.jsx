@@ -1,7 +1,7 @@
 // @flow strict
 
 import * as React from 'react';
-import { FaGithub, FaPlay } from 'react-icons/fa';
+import { FaGithub, FaPlay, FaStore } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -25,6 +25,12 @@ function ProjectCard({ project }) {
             <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-[10px] lg:text-xs px-2 lg:px-4 py-1 lg:py-1.5 bg-pink-500 hover:bg-pink-600 text-white rounded-md transition-colors">
               <FaPlay className="text-[10px] lg:text-xs" />
               <span>Live Demo</span>
+            </a>
+          )}
+          {project.marketplace && (
+            <a href={project.marketplace} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-[9px] lg:text-[11px] px-1.5 lg:px-3 py-0.5 lg:py-1 bg-pink-500 hover:bg-pink-600 text-white rounded-md transition-colors">
+              <FaStore className="text-[9px] lg:text-[11px]" />
+              <span>MarketPlace ↗</span>
             </a>
           )}
           {project.code && (
@@ -71,6 +77,14 @@ function ProjectCard({ project }) {
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.adoption && (
+            <div>
+              <span className="ml-4 lg:ml-8 mr-2 text-white">adoption:</span>
+              <span className="text-gray-400">{`'`}</span>
+              <span className="text-amber-300">{project.adoption}</span>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>

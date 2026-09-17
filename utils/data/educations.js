@@ -1,7 +1,7 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor of Technology, Computer Science & Engineering",
+    title: "B.TECH — COMPUTER SCIENCE & ENGINEERING",
     duration: "2024 - 2028",
     institution: "Amrita Vishwa Vidyapeetham, Coimbatore, India",
   },
@@ -17,6 +17,7 @@ export const educations = [
   {
     id: 3,
     title: "Secondary Education",
+    duration: "2020 – 2022",
     institution: "Kovai Vidyashram, Coimbatore, India",
   }
 

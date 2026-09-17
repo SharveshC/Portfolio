@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         name: 'InvoiceFlow',
         description: 'Designed and developed a multi-tenant B2B SaaS invoice management web application using Django and PostgreSQL. Implemented company-scoped data isolation with role-based access control, an interactive analytics dashboard, automated payment tracking, and dynamic PDF generation for invoices and financial reports to streamline end-to-end billing workflows.',
-        tools: ['Python', 'Django', 'PostgreSQL', 'ReportLab', 'JS'],
+        tools: ['Python', 'Django', 'PostgreSQL', 'ReportLab', 'JavaScript'],
         role: 'Full Stack Developer',
         demo: '',
         code: 'https://github.com/SharveshC/InvoiceFlow',
@@ -24,6 +24,8 @@ export const projectsData = [
         tools: ['TypeScript', 'VS Code Extension API', 'Git (Native CLI)','VSCE (VS Code Extension Manager)'],
         code: 'https://github.com/SharveshC/Smart-Commit-and-Push',
         role: 'Software Engineer',
+        adoption: '270+ installations',
+        marketplace: 'https://marketplace.visualstudio.com/manage/publishers/sharveshc/extensions/smart-commit-push/hub?_a=acquisition',
         demo: '',
     },
 ];

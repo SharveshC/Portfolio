@@ -10,7 +10,7 @@ import GlowCard from "../../helper/glow-card";
 
 function Experience() {
   return (
-    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b] scroll-mt-32 lg:scroll-mt-36">
       <Image
         src="/section.svg"
         alt="Hero"
