@@ -11,16 +11,16 @@ function ProjectCard({ project }) {
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
-      <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-        <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
+      <div className="flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 py-3 lg:py-5 relative">
+        <div className="flex flex-row space-x-1 lg:space-x-2 absolute left-4 lg:left-8 top-4 lg:top-1/2 lg:-translate-y-1/2">
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+        <p className="text-center text-[#16f2b3] text-base lg:text-xl lg:w-full mt-6 lg:mt-0">
           {project.name}
         </p>
-        <div className="flex flex-row space-x-2 absolute right-4 lg:right-8 top-1/2 -translate-y-1/2">
+        <div className="flex flex-row flex-wrap justify-center gap-2 mt-3 lg:mt-0 lg:absolute lg:right-8 lg:top-1/2 lg:-translate-y-1/2 w-full lg:w-auto">
           {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-[10px] lg:text-xs px-2 lg:px-4 py-1 lg:py-1.5 bg-pink-500 hover:bg-pink-600 text-white rounded-md transition-colors">
               <FaPlay className="text-[10px] lg:text-xs" />
@@ -41,8 +41,8 @@ function ProjectCard({ project }) {
           )}
         </div>
       </div>
-      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-        <code className="font-mono text-xs md:text-sm lg:text-base">
+      <div className="border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8 w-full">
+        <code className="font-mono text-xs md:text-sm lg:text-base block break-words whitespace-pre-wrap">
           <div className="blink">
             <span className="mr-2 text-pink-500">const</span>
             <span className="mr-2 text-white">project</span>
