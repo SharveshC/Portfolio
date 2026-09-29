@@ -21,4 +21,5 @@ export const skillsData = [
   'SQLite',
   'Postman',
   'Vercel'
+  
 ]
