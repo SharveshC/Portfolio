@@ -84,8 +84,11 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
-
+import sqlite from '../app/assets/svg/skills/sqlite.svg'
+import postman from '../app/assets/svg/skills/postman.svg'
+import vercel from '../app/assets/svg/skills/vercel.svg'
+import flask from '../app/assets/svg/skills/flask.svg'
+import sql from '../app/assets/svg/skills/sql.svg'
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -139,6 +142,7 @@ export const skillsImage = (skill) => {
     case 'postgresql':
       return postgresql;
     case 'tailwind':
+    case 'tailwind css':
       return tailwind;
     case 'vitejs':
       return vitejs;
@@ -256,6 +260,16 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'sqlite':
+      return sqlite;
+    case 'postman':
+      return postman;
+    case 'vercel':
+      return vercel;
+    case 'flask':
+      return flask;
+    case 'sql':
+      return sql;
     case 'supabase':
       return supabase;
     case 'github':

@@ -11,5 +11,14 @@ export const skillsData = [
   'Git',
   'GitHub',
   'Firebase',
-  'Supabase'
+  'Supabase',
+  'PHP',
+  'SQL',
+  'Django',
+  'Flask',
+  'Tailwind CSS',
+  'PostgreSQL',
+  'SQLite',
+  'Postman',
+  'Vercel'
 ]
