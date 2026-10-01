@@ -28,4 +28,16 @@ export const projectsData = [
         marketplace: 'https://marketplace.visualstudio.com/manage/publishers/sharveshc/extensions/smart-commit-push/hub?_a=acquisition',
         demo: '',
     },
+    {
+        id: 4,
+        name: 'FORETYPE',
+        description: 'Engineered a production-ready intelligent autocomplete system demonstrating advanced data structures (Trie, TST, BST, SkipList) and real-time microsecond performance monitoring. Built a modern Streamlit web interface powered by a scalable SQLite database, featuring a 7,300+ word dictionary, Bloom Filter optimization for efficient pre-filtering, and RSA encryption for secure word storage.',
+        tools: ['Python', 'Streamlit', 'SQLite', 'Plotly', 'RSA Encryption', 'Bloom Filter'],
+        code: 'https://github.com/SharveshC/FORETYPE',
+        role: 'Software Engineer',
+        adoption: '',
+        marketplace: '',
+        demo: 'https://foretype-gyts2uf56bbuc9x4kbuwuk.streamlit.app/',
+        }
+
 ];
