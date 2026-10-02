@@ -39,5 +39,4 @@ export const projectsData = [
         marketplace: '',
         demo: 'https://foretype-gyts2uf56bbuc9x4kbuwuk.streamlit.app/',
         }
-
 ];
