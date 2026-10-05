@@ -41,8 +41,8 @@ function Navbar() {
     { name: "ABOUT", href: "/#about", id: "about" },
     { name: "EXPERIENCE", href: "/#experience", id: "experience" },
     { name: "SKILLS", href: "/#skills", id: "skills" },
-    { name: "EDUCATION", href: "/#education", id: "education" },
-    { name: "PROJECTS", href: "/#projects", id: "projects" }
+    { name: "PROJECTS", href: "/#projects", id: "projects" },
+    { name: "EDUCATION", href: "/#education", id: "education" }
   ];
 
   return (
