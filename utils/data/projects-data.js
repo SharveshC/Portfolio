@@ -11,9 +11,10 @@ export const projectsData = [
     {
         id: 2,
         name: 'CodeFlow',
-        description: "Built a cloud-based online code editor using React and TypeScript with secure authentication, real-time code execution, and scalable session handling. Integrated Firebase Authentication and Firestore to enable persistent, user-specific code storage with scalable session management.",
+        description: 'Developed a cloud-based browser code editor using React and TypeScript with Monaco Editor, supporting code execution across 8+ programming languages through asynchronous Judge0 integration. Implemented Firebase Authentication and Firestore-backed snippet management with protected routes, auto-save, and user-specific storage, along with a Gemini-powered AI assistant for code-aware assistance.',
         tools: ['React', 'TypeScript', 'Firebase'],
         role: 'Full Stack Developer',
+        adoption: '8+ programming languages',
         demo: 'https://codeflow-306fc.web.app/',
         code: 'https://github.com/SharveshC/CodeFlow',
     },
