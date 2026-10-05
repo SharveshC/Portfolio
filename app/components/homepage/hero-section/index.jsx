@@ -22,7 +22,7 @@ function HeroSection() {
       <span className="text-pink-500">{personalData.name}</span>
       , a{' '}
       <span className="text-[#16f2b3]">
-        Computer Science undergrad.
+        Software Developer.
       </span>
     </h1>
 
