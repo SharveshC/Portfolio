@@ -2,7 +2,7 @@ export const personalData = {
   name: "Sharvesh C",
   profile: '/profile.png',
   designation: "Machine Learning & Full Stack Developer",
-  description: "I'm Sharvesh C, a Computer Science undergraduate with an interest in software engineering and web development. I enjoy building practical applications, exploring new technologies, and strengthening my fundamentals through hands-on projects.",
+  description: "I'm Sharvesh C, a Computer Science undergraduate at Amrita Vishwa Vidyapeetham, currently building my skills in software development through hands-on projects. I'm exploring full-stack development, developer tools, and data structures while working on turning ideas into functional applications. I'm interested in building software that combines clean design with solid logic, where both user experience and the underlying implementation matter.",
   email: 'sharveshchandrasekkhar@gmail.com',
   phone: '+91 6381165996',
   address: 'Coimbatore, India',
