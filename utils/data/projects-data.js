@@ -15,7 +15,7 @@ export const projectsData = [
         tools: ['React', 'TypeScript', 'Firebase'],
         role: 'Full Stack Developer',
         adoption: '8+ programming languages',
-        demo: 'https://codeflow-306fc.web.app/',
+        demo: 'https://code-flow-3p4f.vercel.app/',
         code: 'https://github.com/SharveshC/CodeFlow',
     },
     {
