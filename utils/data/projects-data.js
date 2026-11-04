@@ -5,7 +5,7 @@ export const projectsData = [
         description: 'Designed and developed a multi-tenant B2B SaaS invoice management web application using Django and PostgreSQL. Implemented company-scoped data isolation with role-based access control, an interactive analytics dashboard, automated payment tracking, and dynamic PDF generation for invoices and financial reports to streamline end-to-end billing workflows.',
         tools: ['Python', 'Django', 'PostgreSQL', 'ReportLab', 'JavaScript'],
         role: 'Full Stack Developer',
-        demo: '',
+        demo: 'https://invoiceflow-henna-xi.vercel.app/',
         code: 'https://github.com/SharveshC/InvoiceFlow',
     },
     {
