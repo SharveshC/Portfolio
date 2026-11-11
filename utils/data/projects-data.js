@@ -25,7 +25,7 @@ export const projectsData = [
         tools: ['TypeScript', 'VS Code Extension API', 'Git (Native CLI)','VSCE (VS Code Extension Manager)'],
         code: 'https://github.com/SharveshC/Smart-Commit-and-Push',
         role: 'Software Engineer',
-        adoption: '270+ installations',
+        adoption: '280+ installations',
         marketplace: 'https://marketplace.visualstudio.com/manage/publishers/sharveshc/extensions/smart-commit-push/hub?_a=acquisition',
         demo: '',
     },
