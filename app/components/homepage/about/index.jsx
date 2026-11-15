@@ -32,7 +32,7 @@ function AboutSection() {
                 <span className="font-mono text-pink-500 font-bold mt-1">01</span>
                 <div className="flex flex-col">
                   <span className="text-white text-base lg:text-lg tracking-wide uppercase transition-colors group-hover:text-amber-300">Web Applications</span>
-                  <span className="text-gray-400 font-mono text-sm mt-1">Building full-stack apps with real-world use cases.</span>
+                  <span className="text-gray-400 font-mono text-sm mt-1">Building scalable, full-stack applications with real-world use cases.</span>
                 </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ function AboutSection() {
                 <span className="font-mono text-violet-500 font-bold mt-1">02</span>
                 <div className="flex flex-col">
                   <span className="text-white text-base lg:text-lg tracking-wide uppercase transition-colors group-hover:text-[#16f2b3]">Developer Tools</span>
-                  <span className="text-gray-400 font-mono text-sm mt-1">Automating tasks and simplifying developer workflows.</span>
+                  <span className="text-gray-400 font-mono text-sm mt-1">Designing tools for development environments to improve coding workflows.</span>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ function AboutSection() {
                 <span className="font-mono text-orange-400 font-bold mt-1">03</span>
                 <div className="flex flex-col">
                   <span className="text-white text-base lg:text-lg tracking-wide uppercase transition-colors group-hover:text-pink-500">Software ENGINEERING</span>
-                  <span className="text-gray-400 font-mono text-sm mt-1">Applying algorithms to solve practical problems.</span>
+                  <span className="text-gray-400 font-mono text-sm mt-1">Applying algorithms and data structures to develop efficient solutions.</span>
                 </div>
               </div>
             </div>
