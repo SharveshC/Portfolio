@@ -5,7 +5,7 @@ export const skillsCategories = [
   },
   {
     title: "Frameworks & Technologies",
-    skills: ["Django", "Flask", "React", "HTML", "CSS", "Tailwind CSS"],
+    skills: ["Django", "React", "HTML", "CSS", "Tailwind CSS"],
   },
   {
     title: "Databases & Cloud",
