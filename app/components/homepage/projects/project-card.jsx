@@ -72,11 +72,6 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
-            <span className="text-gray-400">,</span>
-          </div>
           {project.adoption && (
             <div>
               <span className="ml-4 lg:ml-8 mr-2 text-white">adoption:</span>
