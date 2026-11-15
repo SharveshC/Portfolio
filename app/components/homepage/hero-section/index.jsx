@@ -31,6 +31,7 @@ function HeroSection() {
     </h1>
 
           <div className="my-12 flex items-center gap-5">
+            
             <Link
               aria-label="github"
               href={personalData.github}
