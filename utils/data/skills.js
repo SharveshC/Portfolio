@@ -1,25 +1,20 @@
-export const skillsData = [
-  'Python',
-  'Java',
-  'C',
-  'JavaScript',
-  'TypeScript',
-  'HTML',
-  'CSS',
-  'React',
-  'MySQL',
-  'Git',
-  'GitHub',
-  'Firebase',
-  'Supabase',
-  'PHP',
-  'SQL',
-  'Django',
-  'Flask',
-  'Tailwind CSS',
-  'PostgreSQL',
-  'SQLite',
-  'Postman',
-  'Vercel'
-  
-]
+export const skillsCategories = [
+  {
+    title: "Programming Languages",
+    skills: ["Python", "Java", "C", "JavaScript", "TypeScript", "SQL"],
+  },
+  {
+    title: "Frameworks & Technologies",
+    skills: ["Django", "Flask", "React", "HTML", "CSS", "Tailwind CSS"],
+  },
+  {
+    title: "Databases & Cloud",
+    skills: ["MySQL", "PostgreSQL", "SQLite", "Firebase Firestore", "Supabase"],
+  },
+  {
+    title: "Developer Tools",
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Vercel"],
+  },
+];
+
+export const skillsData = skillsCategories.flatMap((category) => category.skills);

@@ -89,6 +89,7 @@ import postman from '../app/assets/svg/skills/postman.svg'
 import vercel from '../app/assets/svg/skills/vercel.svg'
 import flask from '../app/assets/svg/skills/flask.svg'
 import sql from '../app/assets/svg/skills/sql.svg'
+import vscode from '../app/assets/svg/skills/vscode.svg'
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -185,6 +186,7 @@ export const skillsImage = (skill) => {
     case 'django':
       return django;
     case 'firebase':
+    case 'firebase firestore':
       return firebase;
     case 'gimp':
       return gimp;
@@ -266,6 +268,9 @@ export const skillsImage = (skill) => {
       return postman;
     case 'vercel':
       return vercel;
+    case 'vscode':
+    case 'vs code':
+      return vscode;
     case 'flask':
       return flask;
     case 'sql':
