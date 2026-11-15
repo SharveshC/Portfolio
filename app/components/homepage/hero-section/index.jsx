@@ -20,9 +20,13 @@ function HeroSection() {
       Hello, <br />
       I'm{' '}
       <span className="text-pink-500">{personalData.name}</span>
-      , a{' '}
+      <br />
       <span className="text-[#16f2b3]">
-        Software Developer.
+        Full-Stack Developer
+      </span>
+      {' '} and{ ' ' }
+      <span className="text-[#16f2b3]">
+        Software Engineer.
       </span>
     </h1>
 
@@ -104,7 +108,7 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">openTo:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Internships</span>
+                <span className="text-amber-300">SDE Internships</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Collaborations</span>
                 <span className="text-gray-400">{"']"}</span>
