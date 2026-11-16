@@ -111,8 +111,8 @@ function HeroSection() {
                 <span className=" text-white">openTo:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">SDE Internships</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Collaborations</span>
+                <span className="text-gray-400"></span>
+                <span className="text-amber-300"></span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
               <div><span className="text-gray-400">{`};`}</span></div>
