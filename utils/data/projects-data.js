@@ -10,7 +10,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'CodeFlow',
-        description: 'Developed a cloud-based browser code editor using React and TypeScript with Monaco Editor, supporting code execution across 8+ programming languages through asynchronous Judge0 integration. Implemented Firebase Authentication and Firestore-backed snippet management with protected routes, auto-save, and user-specific storage, along with a Gemini-powered AI assistant for code-aware assistance.',
+        description: 'Developed a cloud-based browser code editor using React and TypeScript with Monaco Editor, supporting code execution across 9 programming languages through asynchronous Judge0 integration. Implemented Firebase Authentication and Firestore-backed snippet management with protected routes, auto-save, and user-specific storage, along with a Gemini-powered AI assistant for code-aware assistance.',
         tools: ['React', 'TypeScript', 'Firebase Authentication', 'Firestore', 'Monaco Editor', 'Judge0', 'Gemini'],
         adoption: '9 programming languages',
         demo: 'https://code-flow-3p4f.vercel.app/',
@@ -20,10 +20,10 @@ export const projectsData = [
         id: 3,
         name: 'AutoCommit',
         description: 'Designed and implemented a rule-based Git automation engine for VS Code that intelligently parses file structures to auto-generate precise Conventional Commit messages. Built a zero-dependency, offline pipeline orchestrating native Git commands and an interactive review UI to seamlessly streamline the entire commit-to-push workflow.',
-        tools: ['TypeScript', 'VS Code Extension API', 'Git (Native CLI)','VSCE (VS Code Extension Manager)'],
+        tools: ['TypeScript', 'VS Code Extension API', 'Git','VSCE (VS Code Extension Manager)'],
         code: 'https://github.com/SharveshC/Smart-Commit-and-Push',
 
-        adoption: '280+ installations',
+        adoption: '280+ cumulative acquisitions',
         marketplace: 'https://marketplace.visualstudio.com/manage/publishers/sharveshc/extensions/smart-commit-push/hub?_a=acquisition',
         demo: '',
     },
