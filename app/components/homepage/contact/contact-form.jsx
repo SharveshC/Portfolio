@@ -13,41 +13,50 @@ function ContactForm() {
     name: "",
     email: "",
     message: "",
+    user_honey: "",
   });
 
   const checkRequired = () => {
-    if (userInput.email && userInput.message && userInput.name) {
-      setError({ ...error, required: false });
+    if (userInput.email.trim() && userInput.message.trim() && userInput.name.trim()) {
+      setError((prev) => ({ ...prev, required: false }));
     }
   };
 
   const handleSendMail = async (e) => {
     e.preventDefault();
 
-    if (!userInput.email || !userInput.message || !userInput.name) {
-      setError({ ...error, required: true });
+    const trimmedName = userInput.name.trim();
+    const trimmedEmail = userInput.email.trim();
+    const trimmedMessage = userInput.message.trim();
+
+    if (!trimmedName || !trimmedEmail || !trimmedMessage) {
+      setError({ required: true, email: false });
       return;
-    } else if (error.email) {
+    }
+
+    if (!isValidEmail(trimmedEmail)) {
+      setError({ required: false, email: true });
       return;
-    } else {
-      setError({ ...error, required: false });
-    };
+    }
+
+    setError({ required: false, email: false });
 
     try {
       setIsLoading(true);
-      const res = await axios.post("/api/contact", userInput);
+      await axios.post("/api/contact", userInput);
 
       toast.success("✓ Message sent successfully");
       setUserInput({
         name: "",
         email: "",
         message: "",
+        user_honey: "",
       });
     } catch (error) {
-      toast.error("Unable to send message. Please try again.");
+      toast.error(error?.response?.data?.message || "Unable to send message. Please try again.");
     } finally {
       setIsLoading(false);
-    };
+    }
   };
 
   return (
@@ -56,6 +65,20 @@ function ContactForm() {
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
         <p className="text-sm text-[#d3d8e8]">{"I'm open to internships, software projects, and collaboration opportunities. Feel free to reach out if you'd like to connect."}</p>
         <div className="mt-6 flex flex-col gap-4">
+          {/* Honeypot field for bot detection */}
+          <div className="hidden" aria-hidden="true">
+            <label htmlFor="user_honey">Leave this field blank</label>
+            <input
+              id="user_honey"
+              type="text"
+              name="user_honey"
+              value={userInput.user_honey}
+              onChange={(e) => setUserInput({ ...userInput, user_honey: e.target.value })}
+              tabIndex={-1}
+              autoComplete="off"
+            />
+          </div>
+
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Name: </label>
             <input
@@ -80,7 +103,10 @@ function ContactForm() {
               onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
               onBlur={() => {
                 checkRequired();
-                setError({ ...error, email: !isValidEmail(userInput.email) });
+                setError((prev) => ({
+                  ...prev,
+                  email: userInput.email.trim() ? !isValidEmail(userInput.email.trim()) : false,
+                }));
               }}
             />
             {error.email && <p className="text-sm text-red-400">Please provide a valid email!</p>}
@@ -101,7 +127,7 @@ function ContactForm() {
           </div>
           <div className="flex flex-col items-center gap-3">
             {error.required && <p className="text-sm text-red-400">
-              All fiels are required!
+              All fields are required!
             </p>}
             <button
               className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
