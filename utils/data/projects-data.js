@@ -20,7 +20,7 @@ export const projectsData = [
         id: 3,
         name: 'AutoCommit',
         description: 'Designed and implemented a rule-based Git automation engine for VS Code that intelligently parses file structures to auto-generate precise Conventional Commit messages. Built a zero-dependency, offline pipeline orchestrating native Git commands and an interactive review UI to seamlessly streamline the entire commit-to-push workflow.',
-        tools: ['TypeScript', 'VS Code Extension API', 'Git','VSCE (VS Code Extension Manager)'],
+        tools: ['TypeScript', 'VS Code Extension API', 'Git'],
         code: 'https://github.com/SharveshC/Smart-Commit-and-Push',
 
         adoption: '280+ cumulative acquisitions',
