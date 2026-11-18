@@ -4,7 +4,7 @@ export const projectsData = [
         name: 'InvoiceFlow',
         description: 'Developed a multi-tenant B2B SaaS invoicing platform using React, Django REST Framework, and PostgreSQL. Implemented company-scoped data isolation, multi-workspace management, automated tax calculations, partial payment reconciliation, invoice status tracking, interactive financial analytics, and dynamic PDF generation for invoices and financial reports.',
         tools: ['React','Python','Django','Django REST Framework','PostgreSQL','ReportLab'],
-        demo: 'https://invoiceflow-henna-xi.vercel.app/',
+        demo: 'https://invoiceflow360.vercel.app/',
         code: 'https://github.com/SharveshC/InvoiceFlow',
     },
     {
