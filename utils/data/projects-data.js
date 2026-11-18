@@ -13,7 +13,7 @@ export const projectsData = [
         description: 'Developed a cloud-based browser code editor using React and TypeScript with Monaco Editor, supporting code execution across 9 programming languages through asynchronous Judge0 integration. Implemented Firebase Authentication and Firestore-backed snippet management with protected routes, auto-save, and user-specific storage, along with a Gemini-powered AI assistant for code-aware assistance.',
         tools: ['React', 'TypeScript', 'Firebase Authentication', 'Firestore', 'Monaco Editor', 'Judge0', 'Gemini'],
         adoption: '9 programming languages',
-        demo: 'https://codeflow-306fc.web.app/',
+        demo: 'https://code-flow-3p4f.vercel.app/',
         code: 'https://github.com/SharveshC/CodeFlow',
     },
     {
