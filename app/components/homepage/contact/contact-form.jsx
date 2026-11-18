@@ -63,7 +63,7 @@ function ContactForm() {
     <div>
       <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">GET IN TOUCH</p>
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
-        <p className="text-sm text-[#d3d8e8]">{"I'm open to internships, software projects, and collaboration opportunities. Feel free to reach out if you'd like to connect."}</p>
+        <p className="text-sm text-[#d3d8e8]">{"I'm open to internships, software projects, and collaboration opportunities. Reach out if you'd like to connect."}</p>
         <div className="mt-6 flex flex-col gap-4">
           {/* Honeypot field for bot detection */}
           <div className="hidden" aria-hidden="true">
