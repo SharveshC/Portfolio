@@ -13,7 +13,7 @@ export const projectsData = [
         description: 'Developed a cloud-based browser code editor using React and TypeScript with Monaco Editor, supporting code execution across 9 programming languages through asynchronous Judge0 integration. Implemented Firebase Authentication and Firestore-backed snippet management with protected routes, auto-save, and user-specific storage, along with a Gemini-powered AI assistant for code-aware assistance.',
         tools: ['React', 'TypeScript', 'Firebase Authentication', 'Firestore', 'Monaco Editor', 'Judge0', 'Gemini'],
         adoption: '9 programming languages',
-        demo: 'https://code-flow-3p4f.vercel.app/',
+        demo: 'https://codeflow-306fc.web.app/',
         code: 'https://github.com/SharveshC/CodeFlow',
     },
     {
@@ -24,7 +24,6 @@ export const projectsData = [
         code: 'https://github.com/SharveshC/Smart-Commit-and-Push',
 
         adoption: '280+ cumulative acquisitions',
-        marketplace: 'https://marketplace.visualstudio.com/manage/publishers/sharveshc/extensions/smart-commit-push/hub?_a=acquisition',
         demo: '',
     },
     {
@@ -36,6 +35,6 @@ export const projectsData = [
 
         adoption: '',
         marketplace: '',
-        demo: 'https://foretype-gyts2uf56bbuc9x4kbuwuk.streamlit.app/',
+        demo: 'https://foretype.streamlit.app/',
         }
 ];
