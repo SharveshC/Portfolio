@@ -4,7 +4,7 @@ export const certifications = [
     title: 'Automated Machine Learning for Beginners',
     issuer: 'Udemy',
     issuedBy: 'Google & Apple',
-    credentialUrl: '/Automated Machine Learning.pdf',
+    credentialUrl: '/Automated_Machine_Learning.pdf',
   },
   {
     id: 2,
