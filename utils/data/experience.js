@@ -4,6 +4,6 @@ export const experiences = [
     title: 'Web Development Intern',
     company: "Code Developer Solutions",
     duration: "(May 2026 - Jun 2026)",
-    description: "• Contributed to an e-campus portal built with Python and Django, supporting school administration and student workflows.\n\n• Gained practical exposure to Django-based web application development and the workflow of an ongoing software project."
+    description: "• Built a notices and announcements interface for an e-campus web portal using Python and Django, enabling school administrators to publish, update, and organize institutional notices.\n\n• Integrated the announcements workflow into the existing student-facing portal codebase while collaborating within the team's Git and backend development workflow."
   }
-]
+];
