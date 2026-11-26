@@ -10,7 +10,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["about", "experience", "skills", "education", "projects"];
+      const sections = ["about", "experience", "skills", "education", "projects", "certifications"];
       let currentSection = "";
 
       for (const section of sections) {
@@ -42,7 +42,8 @@ function Navbar() {
     { name: "EXPERIENCE", href: "/#experience", id: "experience" },
     { name: "SKILLS", href: "/#skills", id: "skills" },
     { name: "PROJECTS", href: "/#projects", id: "projects" },
-    { name: "EDUCATION", href: "/#education", id: "education" }
+    { name: "EDUCATION", href: "/#education", id: "education" },
+    { name: "CERTIFICATIONS", href: "/#certifications", id: "certifications", shortName: "CERTS" }
   ];
 
   return (
@@ -79,7 +80,12 @@ function Navbar() {
                 <div className={`inline-block text-[12px] md:text-[13px] lg:text-[15px] font-medium tracking-widest transition-all duration-300 hover:text-[#16f2b3] ${
                   activeSection === item.id ? "text-[#16f2b3] border-b-2 border-[#16f2b3]" : "text-white"
                 }`}>
-                  {item.name}
+                  {item.shortName ? (
+                    <>
+                      <span className="md:inline lg:hidden">{item.shortName}</span>
+                      <span className="hidden lg:inline">{item.name}</span>
+                    </>
+                  ) : item.name}
                 </div>
               </Link>
             </li>
